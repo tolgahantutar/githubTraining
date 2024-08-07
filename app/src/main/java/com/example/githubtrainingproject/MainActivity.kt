@@ -9,5 +9,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         Toast.makeText(this@MainActivity, "Login Added", Toast.LENGTH_LONG).show()
+        Toast.makeText(this@MainActivity, "Develop Test", Toast.LENGTH_LONG).show()
     }
 }
